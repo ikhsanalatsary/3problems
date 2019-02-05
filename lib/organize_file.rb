@@ -1,8 +1,8 @@
 def organize_file(log_files)
   dic = {}
   temp = []
-  result = []
-  sorted = log_files.sort_by { |x| x[3] }
+  new_filename = ''
+  sorted = log_files.sort_by { |x| x[2] }
   sorted.map do |log_file|
     log_file.each_with_index do |file, index|
       if index == 1
@@ -24,8 +24,8 @@ def organize_file(log_files)
         ext = file[-4, file.size]
         temp[1] = ext
       end
-      result = temp.join('')
+      new_filename = temp.join('')
     end
-    result
+    new_filename
   end
 end

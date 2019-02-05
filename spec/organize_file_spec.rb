@@ -61,21 +61,21 @@ context 'when passed "log file" must be sorted base on date' do
 
   let(:sorted_files) {
     [
-      'Malang01.jpg',
       'Surabaya01.png',
+      'Malang01.jpg',
       'Malang02.png',
+      'Malang03.jpg',
       'Balikpapan01.jpg',
       'Balikpapan02.jpg',
       'Surabaya02.jpg',
       'Balikpapan03.png',
-      'Malang03.jpg',
-      'Malang04.png',
-      'Malang05.jpg',
-      'Malang06.jpg',
+      'Malang04.jpg',
+      'Malang05.png',
+      'Malang06.png',
       'Malang07.jpg',
-      'Malang08.png',
-      'Malang09.png',
-      'Malang10.jpg'
+      'Malang08.jpg',
+      'Malang09.jpg',
+      'Malang10.png'
     ]
   }
 
